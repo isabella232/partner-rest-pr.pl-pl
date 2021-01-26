@@ -1,0 +1,45 @@
+- name: Dokumentacja dla deweloperów partnerów
+  href: index.yml
+  items:
+    - name: Omówienia i scenariusze
+      href: develop/index.md
+      items:
+        - name: Rozpoczęcie pracy
+          href: develop/get-started.md
+          items:
+            - name: Uwierzytelnianie interfejsu API Partner
+              href: develop/api-authentication.md
+        - name: Scenariusze
+          href: develop/scenarios.md
+          items:
+            - name: Polecenia
+              href: develop/referrals.md
+              items:
+                - name: Pobieranie listy potencjalnych klientów i szans sprzedaży
+                  href: develop/get-a-list-of-referrals.md
+                - name: Pobieranie potencjalnego klienta lub szansy sprzedaży według identyfikatora
+                  href: develop/get-a-referral-by-id.md
+                - name: Aktualizowanie potencjalnego klienta lub szansy sprzedaży
+                  href: develop/patch-a-referral.md
+                - name: Utworzenie nowej szansy sprzedaży
+                  href: develop/create-a-referral.md
+                - name: Zasoby dotyczące poleceń
+                  href: develop/referral-resources.md
+            - name: Cennik
+              href: develop/pricing.md
+              items:
+                - name: Pobieranie arkusza cen
+                  href: develop/get-a-price-sheet.md
+                - name: Pobieranie kursów wymiany walut
+                  href: develop/get-foreign-exchange-rates.md
+    - name: Dokumentacja interfejsu API REST
+      href: develop/rest-api-reference.md
+      items:
+        - name: Adresy URL punktów końcowych REST
+          href: develop/rest-urls.md
+        - name: Nagłówki REST
+          href: develop/headers.md
+        - name: Kody błędów REST
+          href: develop/error-codes.md
+        - name: Zasoby REST
+          href: develop/rest-resources.md
