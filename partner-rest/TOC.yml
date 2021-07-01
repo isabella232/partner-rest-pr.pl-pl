@@ -30,6 +30,8 @@
               items:
                 - name: Pobieranie arkusza cen
                   href: develop/get-a-price-sheet.md
+                - name: Uzyskiwanie macierzy ofert
+                  href: develop/get-an-offer-matrix.md
                 - name: Pobieranie kursów wymiany walut
                   href: develop/get-foreign-exchange-rates.md
     - name: Dokumentacja interfejsu API REST
